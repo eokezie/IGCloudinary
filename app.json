@@ -25,6 +25,14 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photoPermission": "The app access your photo to let you share with your friends"
+        }
+      ]
+    ]
   }
 }
